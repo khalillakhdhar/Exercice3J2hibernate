@@ -33,6 +33,8 @@ private String tel;
 private float salaire;
 private String login;
 private String description;
+
+
 @OneToOne(mappedBy = "employee")
 private Salaire salaireemp;
 
